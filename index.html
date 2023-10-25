@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'odeur</title>
+    <style>
+        @font-face{
+            font-family: 'Cafe24Danjunghae';
+            src:url('./webfont/Cafe24Danjunghae-v2.0.woff') format('woff'),
+                url('./webfont/Cafe24Danjunghae-v2.0.woff2') format('woff2');
+                font-weight: 400;
+        }
+        body{
+            font-family: 'Cafe24Danjunghae', sans-serif;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        a{
+            text-decoration:none;
+            color: #ffffff;
+        }
+        header{
+            position: relative;
+            height: 150px;
+            background-color: #121220;
+            width: 100%;
+            text-align: center;
+        }
+        .title{
+            height: 100px;
+            font-size: 35px;
+            text-align: center;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        ul{
+            background-color: #0d0d11;
+            height: 50px;
+            list-style: none;
+        }
+        li{
+            float: left;
+            height: 50px;
+            width: 200px;
+            text-align: center;
+            font-size: 18px;
+            line-height: 50px;
+        }
+        .right{
+            right: 0px;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title"><b><a href="./index.html">L'odeur</a></b></div>
+        <ul>
+            <li><b><a href="./RedWine.html">Red wine</a></b></li>
+            <li><b><a href="./WhiteWine.html">White wine</a></b></li>
+            <li><b><a href="./RoseWine.html">Rose wine</a></b></li>
+            <li><b><a href="./Cork.html">Cork</a></b></li>
+            <li class="right"><b><a href="./certificate.html">L'odeur?</a></b></li>
+        </ul>
+    </header>
+    <video autoplay loop muted>
+        <source src="./Video/MainVisual.mp4"type="video/mp4">
+    </video>
+</body>
+</html>
