@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Wine</title>
+    <style>
+        @font-face{
+            font-family: 'Cafe24Danjunghae';
+            src:url('./webfont/Cafe24Danjunghae-v2.0.woff') format('woff'),
+                url('./webfont/Cafe24Danjunghae-v2.0.woff2') format('woff2');
+                font-weight: 400;
+        }
+        body{
+            font-family: 'Cafe24Danjunghae', sans-serif;
+        }
+        *{
+            padding: 0;
+            margin: 0 auto;
+        }
+        a{
+            text-decoration:none;
+            color: #ffffff;
+        }
+        header{
+            position: relative;
+            height: 150px;
+            background-color: #121220;
+            width: 100%;
+            text-align: center;
+        }
+        .title{
+            height: 100px;
+            font-size: 35px;
+            text-align: center;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        ul{
+            background-color: #0d0d11;
+            height: 50px;
+            list-style: none;
+        }
+        li{
+            float: left;
+            height: 50px;
+            width: 200px;
+            text-align: center;
+            font-size: 18px;
+            line-height: 50px;
+        }
+        .right{
+            right: 0px;
+            float: right;
+        }
+
+        table{
+            margin-top: 100px;
+        }
+        tr{
+            height: 400px;
+        }
+        td{
+            width: 500px;
+        }
+
+        /* div{
+            background-repeat: no-repeat;
+            background-position: center; */
+        /* } */
+        p{
+            margin-top: 15px;
+            font-size: 25px;
+            text-align: center;
+        }
+        /* #tr1>td:nth-child(1)>div{
+            width: 200px;
+            height: 200px;
+            background-color: #222222;
+        } */
+        img {
+            display: block;
+            margin: 0 auto;
+            height: 482px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title"><b><a href="./index.html">L'odeur</a></b></div>
+        <ul>
+            <li><b><a href="./redwine.html">Red wine</a></b></li>
+            <li><b><a href="./whitewine.html">White wine</a></b></li>
+            <li><b><a href="./rosewine.html">Rose wine</a></b></li>
+            <li><b><a href="./cork.html">Cork</a></b></li>
+            <li class="right"><b><a href="./certificate.html">L'odeur?</a></b></li>
+        </ul>
+    </header>
+    <img src="./Image/Banner2.png">
+
+    <table>
+        <tr id="tr1">
+            <td>
+                <img src="./Image/Canti.jpg">
+                <p style="font-size: 30px;">칸티 모스카토 다스티</p>
+                <p>
+                    총점: 4.5<br>
+                    당도 4/5<br>
+                    산도 2/5<br>
+                    바디 2/5<br>
+                </p>
+                <p style="font-size: 18px;">
+                    이탈리아 피에몬테 와인으로<br>
+                    모스카토 품종으로 만들어진 화이트 와인<br>
+                    과일, 치즈, 디저트 등 과 잘 어울리며<br>
+                    가볍게 마시기 좋은 와인
+                </p>
+            </td>
+            <td>
+                <img src="./Image/punamu.jpg">
+                <p style="font-size: 30px;">푸나무 소비뇽 블랑</p>
+                <p>
+                    총점: 4.2/5<br>
+                    당도 0/5<br>
+                    산도 3/5<br>
+                    바디 2/5<br>
+                </p>
+                <p style="font-size: 18px;">
+                    기분좋은 싱그러운 풀과 풋사과 향<br>
+                    복숭아 같은 핵과일의 맛이 난다.<br>
+                    프레시한 느낌의 와인을 좋아한다면 추천.<br>
+                    씨푸드에 잘 어울림.
+                </p>
+            </td>
+            <td>
+                <img src="./Image/Eagle.jpg">
+                <p style="font-size: 30px;">울프블라스 이글호프 샤르도네</p>
+                <p>
+                    총점: <br>
+                    당도 1/5<br>
+                    산도 4/5<br>
+                    바디 2/5<br>
+                </p>
+                <p style="font-size: 18px;">
+                    닭가슴살이나 아보카도 샐러드 등에 잘 어울리며<br>
+                    오크향과 어우러진 과일향, 약간 강한 산미가<br>
+                    입맛을 돋구는데에 도움을 준다.
+                </p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
